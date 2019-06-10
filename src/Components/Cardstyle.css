@@ -1,0 +1,369 @@
+.cartimg {
+  z-index: 999;
+  float: right;
+  margin-right: 40px;
+  margin-top: 20px; }
+
+.add-btn {
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 600;
+  background: #60824d;
+  color: #fff;
+  display: inline-block; }
+  .add-btn:hover {
+    color: #fff;
+    background-color: #4506cf; }
+
+.container {
+  display: block;
+  position: relative;
+  cursor: pointer; }
+
+.container input {
+  position: relative;
+  opacity: 0;
+  cursor: pointer; }
+
+.checkmark {
+  position: absolute;
+  top: 10;
+  left: 10px;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+  border-radius: 50%;
+  border: none; }
+
+OVERLAY EFFECT
+.container {
+  position: relative; }
+
+.productimage {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden; }
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center; }
+
+.container:hover .middle {
+  opacity: 1; }
+
+.text {
+  background-color: #4506cf;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px; }
+
+.sizeselection {
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  background-color: #60824d;
+  color: white;
+  background: #60824d;
+  margin-right: 15px;
+  margin-left: 7px; }
+
+.card .card-footer p, .card .buttonNav select, .card .buttonNav button {
+  font-family: 'Dosis', sans-serif;
+  font-size: 16px; }
+
+.card {
+  position: relative;
+  overflow: hidden; }
+  .card .card-footer p {
+    color: #393939; }
+    .card .card-footer p:first-child {
+      color: #324d5d;
+      font-weight: bold; }
+  .card .displayBlock {
+    overflow: initial; }
+  .card .hideBlock {
+    overflow: hidden; }
+  .card .buttonNav {
+    width: 100%;
+    position: absolute;
+    bottom: 80px;
+    left: 10px;
+    cursor: pointer;
+    opacity: 1; }
+    .card .buttonNav .cartmenu {
+      width: 30px;
+      height: 30px;
+      border-radius: 5px;
+      float: left;
+      border-radius: 50%;
+      margin-right: 20px;
+      margin-left: 10px; }
+      .card .buttonNav .cartmenu ul {
+        position: relative;
+        padding: 0;
+        margin-top: -35px; }
+        .card .buttonNav .cartmenu ul li {
+          height: 35px;
+          width: 35px;
+          padding: 10px;
+          list-style-type: none; }
+    .card .buttonNav select {
+      background: none;
+      border: thin solid #ccc;
+      padding: 6px 12px;
+      color: #333;
+      border-radius: 5px;
+      float: left; }
+    .card .buttonNav button {
+      background: #5100FF;
+      border: none;
+      padding: 7px 18px;
+      border-radius: 5px;
+      color: #fff;
+      font-weight: 600;
+      cursor: pointer; }
+      .card .buttonNav button:hover {
+        color: #fff;
+        background-color: #4506cf; }
+
+.producttable {
+  width: 75%;
+  margin: 0 auto; }
+  .producttable .carttable tr:nth-child(even) {
+    background-color: #97bb83; }
+
+thead {
+  background-color: #60824d;
+  color: #fff;
+  text-align: center; }
+
+.buttoncontainer {
+  margin: 50px;
+  display: flex;
+  justify-content: space-evenly; }
+
+.updatebutton, .emptybutton, .continuebutton, .checkoutbutton {
+  background-color: #60824d;
+  border-radius: 4px;
+  border: none; }
+
+.quantityselection {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+  background-color: #F4F4F4;
+  border: none;
+  color: black; }
+
+.imageTd {
+  vertical-align: middle;
+  text-align: center; }
+
+.cart-img {
+  height: 100px;
+  width: 100px; }
+
+.logo {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #c7c7c7; }
+
+.description {
+  width: 35%;
+  margin: 0 auto;
+  font-size: 25px;
+  font-weight: 700;
+  color: #5B84B1FF;
+  border-bottom: 1px solid #64CEF3; }
+
+.form-details {
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left; }
+
+.checkLabel {
+  margin-bottom: 0;
+  display: block;
+  margin-top: 10px; }
+
+.checkoutHead {
+  text-align: center; }
+
+.billHead {
+  padding: 5px 10px;
+  position: absolute;
+  top: -18px;
+  background: #f0eeee; }
+
+.billing {
+  border: 1px solid #e2dfdf;
+  border-radius: 3px;
+  padding: 20px;
+  position: relative; }
+
+.input-fields {
+  border-radius: 3px;
+  border: 1px solid #bdbaba; }
+
+.billSame {
+  margin-top: 20px;
+  margin-bottom: 10px; }
+
+.shipHead {
+  padding: 5px 10px;
+  position: absolute;
+  top: -18px;
+  background: #f0eeee; }
+
+.shipping {
+  position: relative;
+  margin-top: 30px;
+  border: 1px solid #e2dfdf;
+  padding: 20px;
+  border-radius: 3px; }
+
+.checkBilling {
+  margin-left: 10px; }
+
+.billSame {
+  display: flex;
+  align-items: center; }
+
+.country {
+  width: 31%;
+  padding: 3px;
+  border-radius: 3px; }
+
+.btn-checkout {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 3px 20px; }
+
+.errors {
+  padding-left: 20px;
+  color: red; }
+
+.billDetailsSubmit {
+  max-width: 500px;
+  width: 100%;
+  margin: 30px auto;
+  border: 1px solid #807c7c;
+  padding: 20px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 10px #6b6666; }
+
+.card .buttonNav button {
+  padding: 5px; }
+
+.shopheading {
+  font-size: 35px;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 700;
+  color: #60824d; }
+
+.notificationBadge div span {
+  right: 40px !important;
+  top: -70px !important; }
+
+.order-total {
+  width: 100%;
+  text-align: right; }
+  .order-total .total-detail p {
+    font-size: 18px;
+    font-weight: 500; }
+    .order-total .total-detail p span {
+      color: #60824d;
+      font-weight: 700; }
+    .order-total .total-detail p important {
+      color: red;
+      font-weight: 700; }
+
+.detailspage h2 {
+  font-weight: 700;
+  color: red;
+  font-size: 50px;
+  margin-top: 25px; }
+
+.productdescription {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-evenly; }
+  .productdescription .product-img {
+    width: 40%; }
+    .productdescription .product-img img {
+      width: 80%; }
+  .productdescription .product-desc {
+    width: 60%;
+    text-align: left; }
+    .productdescription .product-desc h2 {
+      font-size: 35px;
+      color: #324d5d;
+      font-weight: 700; }
+
+.submitted img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%; }
+
+.invoice .user-details .user-detail {
+  text-align: left;
+  margin-bottom: 15px;
+  font-weight: 600; }
+
+.banner {
+  background-color: #000;
+  height: 200px; }
+  .banner .bannerlogo {
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left; }
+
+.cart-notify {
+  position: absolute;
+  top: 20px;
+  right: 2%;
+  width: 15%;
+  height: 50%;
+  z-index: 9; }
+
+.cartimg {
+  background: transparent;
+  border: none;
+  position: absolute;
+  right: 10px;
+  top: 15px; }
+  .cartimg:focus {
+    outline: none; }
+
+.hover-span {
+  position: absolute;
+  top: 60px;
+  right: 0; }
+
+.cartimg img {
+  float: right; }
+
+.cart-back {
+  width: 30%;
+  margin-left: 10px;
+  margin-top: 20px; }
+
+/*# sourceMappingURL=Cardstyle.css.map */
